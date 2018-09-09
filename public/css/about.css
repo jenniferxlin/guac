@@ -1,0 +1,99 @@
+.ingredients {
+  text-align: center;
+}
+
+.ingredients h3 {
+	font-size: 25px;
+}
+.ingredients h4 {
+	font-size: 20px;
+}
+
+.ingredients .cilantro {
+  color: #A2D074;
+}
+
+.ingredients .jalapeno {
+  color: #4B7DA0;
+}
+
+.ingredients .tomato {
+  color: #E76B5B;
+}
+
+.ingredients .onion {
+  color: #EECFA3;
+}
+
+.ingredients .avocado {
+  color: #6D8F4C;
+}
+
+.about-image {
+  width: 100%;
+}
+
+.ingredients p.description {
+	display: none;
+}
+
+p.zeyu-quote {
+	font-style: italic;
+}
+p.zeyu-quote-right {
+	font-style: italic;
+	float: right;
+    padding-right: 10px;
+}
+
+@media (max-width: 768px) {
+.about-image-wrap {
+    height: 180px;
+    width: 100%;
+    margin: 0;
+    background-position: center;
+    background-size: 600px;
+    background-position-x: -120px;
+}
+.about-small {
+    margin: 0;
+    padding: 0;
+}
+.content-row {
+    margin-top: 0;
+    margin-bottom: 45px;
+}
+.row-5 {
+	display: block;
+    width: 100%;
+}
+.row-5 .col {
+    padding-left: 0;
+}
+.ingredients {
+    width: 100%;
+    text-align: left;
+}
+.ingredients h3 {
+    font-size: 18px;
+    display: inline;
+}
+.ingredients h4 {
+    font-size: 18px;
+    display: inline;
+    color: #bbbbbb;
+}
+.ingredients p.description {
+	display: block;
+}
+.ingredients-wrap {
+	margin-bottom: 25px;
+}
+#team {
+	padding-top: 0;
+}
+.hoverthis {
+	margin: 0;
+    line-height: 20px;    
+}
+}
