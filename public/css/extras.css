@@ -19,9 +19,20 @@ p {
   padding-right: 46px;
 }
 
-.navbar-right>li>a:hover, .navbar-header>a:hover {
+.navbar-right>li>a:hover{
   background: none;
+  color: black;
+  padding-bottom: 0;
+  border-bottom: 3px solid #6D8F4C;
+}
+
+.navbar-header>a:hover {
+  color:black;
+}
+
+#subscribe {
   color: #6D8F4C;
+  border-bottom: none;
 }
 
 .navbar-brand{
@@ -43,6 +54,7 @@ p {
 
 .header {
   background-color: #F9E0BE;
+  height: 75%;
 }
 
 .jumbotron img {
@@ -51,142 +63,80 @@ p {
   margin: auto;
 }
 
-.intro,.bio {
+.intro {
+  background: #313131;
   text-align: center;
-  color: #000;
-}
-
-.jumbotron .intro {
-  font-size: 40px;
+  color: white;
+  width: 70%;
+  margin: auto;
+  padding: 60px;
+  font-size: 36px;
+  color: white;
   font-weight: bold;
-  margin-bottom: 28px;
+  margin-top: -120px ;
 }
 
-.jumbotron .bio {
-  font-size: 14px;
-  font-family: "Ultimate-Serial-Regular";
-  letter-spacing: 1px;
-  width: 30%;
+.intro h1 {
+  width: 80%;
   margin: auto;
 }
 
-/**latest issue styling**/
-.latest {
-  background-color: #313131;
+/**story banner**/
+.stories {
+  background-color: white;
+  margin: auto;
+  height: 40%;
 }
 
-.latest img {
-  width: 40%;
+.stories h1, .journies h1 {
+  font-size: 30px;
+  font-weight: bold;
   display: inline-block;
-  float: left;
+  vertical-align: top;
+  margin-left: 20%;
 }
 
-.latest h1, .latest p, .latest span{
-  color: white;
-  padding: 0;
-  margin: 0;
+.mission {
+  font-size: 16px;
+  width: 28%;
+  display: inline-block;
+  float: right;
+  margin-right: 20%;
 }
 
-.latest span {
-  font-size: 12px;
-  font-family: "CircularStd-Book";
-}
-
-.latest p {
+.stories p, .journies p{
+  color: black;
   font-size: 14px;
   font-family: "Ultimate-Serial-Regular";
   letter-spacing: 1px;
 }
 
-.latest a{
-  text-decoration: underline;
-  color: white;
-}
-
-.latest .heading{
-  display: inline-block;
-  margin-left:140px;
-}
-
-.latest p {
-  margin-top: 36px;
-}
-
-/**recruiting banner**/
-.recruit {
-  background-color: #6D8F4C;
-  padding: 24px;
-}
-
-.recruit h1 {
-  margin:0;
-  padding: 0;
-  text-align: center;
-  color: white;
-  font-size: 40px;
-  font-family: "CircularStd-Book";
-}
-
-.recruit span {
-  font-family: "CircularStd-Black";
-}
-
-.recruit .btn, .recruit p{
-  display: inline-block;
-}
-
-.apply {
-  text-align: center;
-  margin-top: 12px;
-  color: white;
-}
-
-.apply .btn, .email-form .btn {
-  color: #000;
-  margin: 0 4px;
-  background-color: #F9E0BE;
-  width: 100px;
+.btn {
+  border: 2px solid #6D8F4C;
+  width: 40%;
+  padding: 12px;
+  margin: 24px 0;
+  color: #6D8F4C;
 }
 
 /**map styling**/
+.map {
+  padding: 0;
+}
 .map>img {
   width: 100%;
+  padding-top: 40px;
 }
 
-/**quick contact styling**/
-.contact {
-  background-color: #fff;
+/**subscription styling**/
+.subscription {
+  background-color: #E76B5B;
+  margin:0;
+  text-align: center;
 }
 
 .email h2 {
   font-family: "CircularStd-Bold";
-}
-
-.email p {
-  font-size: 14px;
-  letter-spacing: 1px;
-}
-
-.contact {
-  width: 80%;
-  margin: 0 auto;
-}
-
-.email {
-  width: 30%;
-  margin-left: 4px;
-  display: inline-block;
-}
-
-.email-form input {
-  border-radius: 0;
-  box-shadow: none;
-  width:60%;
-  border: 0;
-  border-bottom: 1px solid #000000;
-  display: inline-block;
-  font-family: "Ultimate-Serial-Regular";
-  letter-spacing: 1px;
 }
 
 .email-form ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
@@ -195,36 +145,77 @@ p {
   padding: 0;
 }
 
+.email-form input {
+  display: inline-block;
+  width: 32%;
+  margin-right: 0;
+  font-family: "Ultimate-Serial-Regular";
+  letter-spacing: 1px;
+  border-radius: 0;
+  padding: 12px;
+  line-height: 20em;
+}
+
 .email-form .btn {
-  border: none;
+  width: 12%;
+  display: inline-block;
+  margin-left:0;
   background-color: #6D8F4C;
   color: white;
-  margin: 0 16px;
+  border-radius: 0;
+  padding: 12px;
 }
 
+.journies {
+  height: 40%;
+}
+
+/**instagram feed**/
+.feed {
+  background-color: #F5F5F5;
+  padding: 45px;
+}
+
+.lightwidget-widget {
+  width: 80%;
+  margin-left: 10%;
+  overflow: hidden;
+  border: 0;
+}
+
+.feed h2 {
+  margin-left: 13.5%;
+  font-weight: bold;
+}
+
+/**quicklinks**/
 .quicklinks {
+  width: 70%;
+  margin: auto;
+  padding-top: 4%;
+}
+
+.quicklinks h2 {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.quicklinks>a, footer img {
   display: inline-block;
-  width: 50%;
-  float: right;
-}
-
-.quicklinks p {
-  margin-top: 12px;
-  margin-right: 12px;
-  display:inline-block;
-  font-family: "Ultimate-Serial-Regular";
-  font-size: 16px;
-  line-height: 32px;
-}
-
-.quicklinks a:hover{
-  text-decoration: none;
-  color: #6D8F4C;
-}
-
-.contact footer img {
-  width: 5%;
-  display: inline-block;
-  margin-top:0;
+  margin-top: 16px;
   margin-right: 16px;
+}
+
+footer img {
+  width: 4%;
+}
+
+footer>a {
+  margin-right: 0;
+  padding-bottom: 20%;
+}
+
+footer>a:hover {
+  text-decoration: underline;
+  text-decoration-color: #6D8F4C;
 }
