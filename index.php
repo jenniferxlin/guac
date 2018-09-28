@@ -30,7 +30,7 @@ to view the world with an open mind</h1></div>
       and hosting events.<br><br>
       Within a year, we have featured stories about 15 different countries around
       the world!</p>
-      <button type="button" class="btn">EXPLORE</button>
+      <button type="button" class="btn"><a href="stories.php">EXPLORE</a></button>
     </div>
   </div>
 </div>
@@ -39,13 +39,7 @@ to view the world with an open mind</h1></div>
   <img src="public/images/map.png"/>
 </div>
 
-<div class="jumbotron subscription">
-  <h2>Never miss a story</h2>
-  <form class="email-form">
-    <input type="email" class="form-control" placeholder="Your email address" id="email"></input>
-    <button type="submit" class="btn .btn-default">SUBSCRIBE</button>
-  </form>
-</div>
+<?php include("includes/subscription.php"); ?>
 
 
 <div class="jumbotron journies">
@@ -54,30 +48,14 @@ to view the world with an open mind</h1></div>
     <div class="mission">
       <p>Founded in August 2017, Guac is an award-winning travel publication around
       by an interdisciplinary group of students at Cornell University.</p>
-      <button type="button" class="btn">READ MORE</button>
+      <button type="button" class="btn"><a href="about.php">READ MORE</a></button>
     </div>
   </div>
 </div>
 
-<div class="feed">
-  <h2>Follow Along</h2>
-<script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script>
-<iframe src="//lightwidget.com/widgets/4425a11829a055bf9efeccf640e4f9f7.html"
-scrolling="no" allowtransparency="true" class="lightwidget-widget"></iframe>
-</div>
+<?php include("includes/instafeed.php"); ?>
 
-<div class="quicklinks">
-  <h2>Quick Links</h2>
-    <a href="stories.php">Stories</a>
-    <a href="about.php">About</a>
-    <a href="#">Subscribe</a>
-    <footer>
-      <a href="#"><img src="public/images/insta.png"/></a>
-      <a href="#"><img id="fb" src="public/images/fb.jpg"/></a>
-      <a href="#"><img id="mail" src="public/images/mail.png"/></a>
-    </footer>
-</div>
-
+<?php include("includes/quicklinks.php"); ?>
 
 </body>
 </html>

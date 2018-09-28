@@ -88,12 +88,12 @@ p {
   height: 40%;
 }
 
-.stories h1, .journies h1 {
+.stories h1, .journies h1, .team h1, .prints h1 {
   font-size: 30px;
   font-weight: bold;
   display: inline-block;
   vertical-align: top;
-  margin-left: 20%;
+  margin-left: 15%;
 }
 
 .mission {
@@ -101,22 +101,27 @@ p {
   width: 28%;
   display: inline-block;
   float: right;
-  margin-right: 20%;
+  margin-right: 13%;
 }
 
-.stories p, .journies p{
+.stories p, .journies p, .team p, .prints p{
   color: black;
   font-size: 14px;
   font-family: "Ultimate-Serial-Regular";
   letter-spacing: 1px;
 }
 
-.stories .btn, .journies .btn {
+.stories .btn, .journies .btn{
   border: 2px solid #6D8F4C;
   width: 40%;
   padding: 12px;
   margin: 24px 0;
   color: #6D8F4C;
+}
+
+.stories a, .journies a, .prints a{
+  color: #6D8F4C;
+  text-decoration: none;
 }
 
 /**map styling**/
@@ -133,6 +138,11 @@ p {
   background-color: #E76B5B;
   margin:0;
   text-align: center;
+}
+
+.subscription h2 {
+  color: white;
+  margin-bottom: 45px;
 }
 
 .email h2 {
@@ -214,4 +224,137 @@ footer>a {
 footer>a:hover {
   text-decoration: underline;
   text-decoration-color: #6D8F4C;
+}
+
+.about h1 {
+  font-size: 28px;
+}
+
+.jumbotron .guac_char {
+  width: 80%;
+}
+
+.header h1 {
+  font-weight: bold;
+  margin: 0 15%;
+}
+
+/**about header**/
+#guac_char {
+  height: 85%;
+}
+
+/**journey story**/
+#journies {
+  height: 350%;
+}
+
+#journies h1 {
+  margin-left: 15%;
+  display: block;
+}
+
+#journies .left-img, #journies .right-img {
+  width: 20%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+#journies .left-img {
+  margin: 45px 15%;
+}
+
+.time {
+  color:#6D8F4C;
+}
+
+#journies .details {
+  font-size: 16px;
+  margin: 30px 0;
+}
+
+#journies .right-paragraphs, #journies .left-paragraphs {
+  display: inline-block;
+  width: 35%;
+  vertical-align: top;
+}
+
+#journies .left-paragraphs {
+  margin: 45px 15%;
+}
+
+#journies .last {
+  margin: 60px 0;
+}
+
+#journies .center-img {
+  display: block;
+  margin: auto;
+  width: 25%;
+}
+
+#journies .center {
+  text-align: center;
+  font-size: 20px;
+}
+
+#journies .details {
+  font-size: 20px;
+}
+
+.paragraphs {
+  width: 30%;
+  display: block;
+  margin: 45px auto;
+}
+
+/**Guac Team**/
+.team {
+  margin: 45px 0 ;
+  height: 60%;
+}
+.team .fam {
+  width: 100%;
+}
+
+/**Stories**/
+.story h1 {
+  font-size: 24px;
+  vertical-align: text-top;
+}
+
+/**issues**/
+div.scroll {
+  margin-left: 14px;
+  padding-bottom: 4%;
+  overflow: auto;
+  white-space: nowrap;
+}
+
+.covers {
+  display: block;
+  width: 100%;
+}
+
+.issues {
+  width: 100%;
+  margin-left: 10%;
+  overflow: none;
+  white-space: normal;
+}
+
+.mag {
+  width: 30%;
+  margin-left: 11%;
+  vertical-align: top;
+  display: inline-block;
+}
+
+.issues h4 {
+  font-size: 16px;
+  color: black;
+}
+
+.issues h2 {
+  margin: 16px 0;
 }
