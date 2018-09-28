@@ -29,7 +29,7 @@
       <div class="mission">
         <p>We produce articles weekly about international affairs, cultures,
           and travel. Follow us on Medium for the weekly doses of inspiration!</p>
-        <button type="button" class="btn"><a href="https://medium.com/guac-magazine">READ ON MEDIUM</a></button>
+        <button type="button" class="btn"><a href="https://medium.com/guac-magazine" target="_blank">READ ON MEDIUM</a></button>
       </div>
     </div>
   </div>
@@ -87,7 +87,7 @@
         <p>Once every other month, we bring people together to exchange ideas and
           share stories through hosting events on Cornell campus over some good
           food and drinks.</p>
-        <button type="button" class="btn"><a href="https://www.facebook.com/guacmag/">SEE ON FACEBOOK</a></button>
+        <button type="button" class="btn"><a href="https://www.facebook.com/guacmag/" target="_blank">SEE ON FACEBOOK</a></button>
       </div>
     </div>
   </div>

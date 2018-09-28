@@ -2,7 +2,7 @@
   <h2>Quick Links</h2>
     <a href="stories.php">Stories</a>
     <a href="about.php">About</a>
-    <a href="#">Subscribe</a>
+    <a href="#subscribe">Subscribe</a>
     <footer>
       <a href="#"><img src="public/images/insta.png"/></a>
       <a href="#"><img id="fb" src="public/images/fb.jpg"/></a>

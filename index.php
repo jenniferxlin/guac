@@ -6,7 +6,23 @@
     <link href="public/css/app.css" type="text/css" rel="stylesheet" media="all"/>
     <link href="public/css/bootstrap.css" type="text/css" rel="stylesheet" media="all"/>
     <link href="public/css/style.css" type="text/css" rel="stylesheet" media="all"/>
-        <link href="public/css/extras.css" type="text/css" rel="stylesheet" media="all"/>
+    <link href="public/css/extras.css" type="text/css" rel="stylesheet" media="all"/>
+    <script type="text/javascript" src="jquery-1.8.3.js"></script>
+    <script type="text/javascript">
+    let anchorlinks = document.querySelectorAll('a[href^="#"]')
+
+for (let item of anchorlinks) { // relitere
+  item.addEventListener('click', (e)=> {
+      let hashval = item.getAttribute('href')
+      let target = document.querySelector(hashval)
+      target.scrollIntoView({
+          behavior: 'smooth'
+      })
+      history.pushState(null, null, hashval)
+      e.preventDefault()
+  })
+}
+</script>
 
     <title>Guac Magazine</title>
 </head>

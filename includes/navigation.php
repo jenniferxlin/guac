@@ -7,8 +7,8 @@
     <li><a class="navlink" href="index.php">Home</a></li>
     <li><a class="navlink" href="stories.php">Stories</a></li>
     <li><a class="navlink" href="about.php">About</a></li>
-    <li><a class="navlink" href="contact.php">Contact</a></li>
-    <li><a class="navlink" id="subscribe" href="subscribe.php">Subscribe</a></li>
+    <li><a class="navlink" href="mailto:guacmag@gmail.com">Contact</a></li>
+    <li><a class="navlink" href="#subscribe" id="sub">Subscribe</a></li>
   </ul>
 </div>
 </nav>
