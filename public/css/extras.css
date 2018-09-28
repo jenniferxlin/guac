@@ -111,7 +111,7 @@ p {
   letter-spacing: 1px;
 }
 
-.btn {
+.stories .btn, .journies .btn {
   border: 2px solid #6D8F4C;
   width: 40%;
   padding: 12px;
@@ -139,31 +139,27 @@ p {
   font-family: "CircularStd-Bold";
 }
 
-.email-form ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
-  text-align: left;
-  margin: 0;
-  padding: 0;
+.email-form {
+  display: inline-block;
+  width: 50%;
 }
 
-.email-form input {
-  display: inline-block;
-  width: 32%;
-  margin-right: 0;
+.email-form>input {
+  float: left;
+  width: 80%;
   font-family: "Ultimate-Serial-Regular";
   letter-spacing: 1px;
   border-radius: 0;
-  padding: 12px;
-  line-height: 20em;
+  display: inline-block;
 }
 
-.email-form .btn {
-  width: 12%;
+.email-form>button {
+  width: 20%;
+  height: 50px;
   display: inline-block;
-  margin-left:0;
   background-color: #6D8F4C;
   color: white;
   border-radius: 0;
-  padding: 12px;
 }
 
 .journies {

@@ -42,10 +42,11 @@ to view the world with an open mind</h1></div>
 <div class="jumbotron subscription">
   <h2>Never miss a story</h2>
   <form class="email-form">
-    <input type="email" class="form-control" placeholder="Your email address" id="email">
-    <button type="submit" class="btn btn-default">SUBSCRIBE</button></input>
+    <input type="email" class="form-control" placeholder="Your email address" id="email"></input>
+    <button type="submit" class="btn .btn-default">SUBSCRIBE</button>
   </form>
 </div>
+
 
 <div class="jumbotron journies">
   <div class="work">
@@ -76,5 +77,7 @@ scrolling="no" allowtransparency="true" class="lightwidget-widget"></iframe>
       <a href="#"><img id="mail" src="public/images/mail.png"/></a>
     </footer>
 </div>
+
+
 </body>
 </html>
