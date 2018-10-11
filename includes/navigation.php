@@ -12,9 +12,9 @@
   </div>
   <div class="col-6">
   </div>
+  <a href="javascript:void(0);" class="icon" id="menu-icon" onclick="myFunction()">
+    <img src="public/images/menu-icon.png"/></a>
   <div class="topnav nav" id="myTopnav">
-    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-      <img src="public/images/menu-icon.png"/></a>
     <a class="navlink" href="index.php">Home</a>
     <a class="navlink" href="stories.php">Stories</a>
     <a class="navlink" href="about.php">About</a>
