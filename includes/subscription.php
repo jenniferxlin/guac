@@ -2,7 +2,7 @@
 <div class="row">
   <div class="col-5">
   </div>
-  <div class="col-3">
+  <div class="col-7">
     <h2>Never miss a story</h2>
   </div>
 </div>

@@ -7,8 +7,8 @@
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" media="all"/>
     <link href="public/css/bootstrap.css" type="text/css" rel="stylesheet" media="all"/>
     <link href="public/css/extras.css" type="text/css" rel="stylesheet" media="all"/>
-    <script type="text/javascript" src="jquery-1.8.3.js"></script>
-
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
+    <script src="public/js/menu.js"></script>
     <title>Guac Magazine</title>
 </head>
 
@@ -55,7 +55,7 @@
       </div>
     <div>
 
-<div class="col-12 jumbotron map">
+<div class="col-12 map">
   <img src="public/images/map.png"/>
 </div>
 

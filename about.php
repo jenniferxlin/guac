@@ -51,7 +51,7 @@
   <div class="col-1">
   </div>
   <div class="col-9">
-    <h1>Guac's Journies</h1>
+    <h1>Guac's Journeys</h1>
   </div>
   <div class="col-2">
   </div>

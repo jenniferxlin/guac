@@ -18,10 +18,11 @@ p {
   background-color: #F9E0BE;
 }
 
-.nav>li>a:hover{
+.nav>a:hover{
   background: none;
   color: black;
   padding-bottom: 0;
+  text-decoration: none;
   border-bottom: 3px solid #6D8F4C;
 }
 
@@ -41,9 +42,10 @@ p {
   font-weight: bold;
 }
 
-.nav li {
+.topnav a {
   font-size: 14px;
   font-family: "CircularStd-Book";
+  margin: 0 12px;
 }
 
 /**home banner styling**/
@@ -91,7 +93,7 @@ p {
   height: 40%;
 }
 
-.story>div>h1, .team h1, .prints h1 {
+.story h1, .jouries h1, .team h1, .prints h1 {
   font-size: 36px;
   font-weight: bold;
   display: inline-block;
@@ -111,11 +113,12 @@ p {
 }
 
 .story .btn, .journies .btn {
-  width: 202px;
+  width: 180px;
   border: 2px solid #6D8F4C;
   padding: 12px;
   margin: 24px 0;
   color: #6D8F4C;
+  background-color: white;
 }
 
 .story a, .journies a, .prints a{
@@ -126,6 +129,7 @@ p {
 /**home map**/
 .map {
   padding: 0;
+  margin: 0;
 }
 
 .map>img {
@@ -193,7 +197,7 @@ p {
   padding: 0;
 }
 
-.lightwidget-widget {
+div .lightwidget-widget {
   background-color: #F5F5F5;
   width: 100%;
   margin-top: -45px;
@@ -203,10 +207,10 @@ p {
   padding: 0;
 }
 
-.feed .col-1 img {
+.feed .col-2 img {
   transform: translateY(60%);
   width: 30px;
-  float: right;
+  margin-left: 25%;
 }
 
 /**quicklinks**/
@@ -260,7 +264,7 @@ footer img {
 }
 
 .left-img, .right-img{
-  width: 70%;
+  width: 80%;
   display: inline-block;
   vertical-align: top;
 }
@@ -282,7 +286,9 @@ footer img {
 
 .milestones h3 {
   font-size: 27px;
-  margin-bottom: 5%;
+  margin-bottom: 8%;
+  font-weight: bold;
+  letter-spacing: 0.01em;
 }
 
 .milestones .details {
@@ -403,4 +409,57 @@ footer img {
 .events {
   margin-top: 169px;
   margin-bottom: 100px;
+}
+
+.icon {
+  display: none;
+}
+
+@media only screen and (max-width: 1300px) {
+  .topnav a {
+    display: none;
+  }
+
+  .topnav img {
+    width: 2%;
+    display: block;
+    position: fixed;
+  }
+
+  .topnav a.icon {
+    display: inline-block;
+    border-bottom: none;
+  }
+
+  .topnav.responsive .icon {
+    position: relative;
+    float:right;
+    margin-left: 50px;
+    margin-right: 30px;
+    margin-bottom: 50px;
+  }
+
+  .topnav.responsive a {
+    display: block;
+    position: relative;
+  }
+
+  .topnav.responsive {
+    position: sticky;
+    padding-top: 20px;
+    display: block;
+    z-index:2;
+  }
+
+  .topnav.responsive .navlink{
+    position: relative;
+    display: block;
+    text-align: right;
+    margin-bottom: 10px;
+  }
+
+  .topnav.responsive .navlink:hover{
+    text-decoration: underline #6D8F4C;
+    color: black;
+  }
 }
