@@ -1,6 +1,6 @@
 <div class="row col-12 feed">
-    <h2>Follow Along
-    <a href="https://www.instagram.com/guacmag/?hl=en"><img src="public/images/insta.png"/></a></h2>
+    <h1>Follow Along
+    <a href="https://www.instagram.com/guacmag/?hl=en"><img src="public/images/insta.png"/></a></h1>
 </div>
 
 <div class="row instapics">

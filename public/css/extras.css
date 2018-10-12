@@ -1,14 +1,26 @@
 body {
   font-family: "Circular Std";
-  letter-spacing: -0.005em;
+}
+
+h1 {
+    font-size: 36px;
+    font-family: "CircularStd-Bold";
+}
+h2 {
+    font-size: 30px;
+}
+h3 {
+    font-size: 24px;
+}
+
+p{
+  font-size:18px;
+  color: black;
+  font-family: "CircularStd-Book";
 }
 
 a {
   color: black;
-}
-
-p {
-  font-family: "Ultimate-Serial-Regular";
 }
 
 .row:before, .row:after {
@@ -73,7 +85,7 @@ p {
   background: #313131;
   text-align: center;
   color: white;
-  padding: 60px;
+  padding: 60px 0;
   font-size: 36px;
   color: white;
   font-weight: bold;
@@ -88,7 +100,6 @@ p {
 .intro h1 {
   width: 60%;
   margin: auto;
-  letter-spacing: -0.005em;
 }
 
 /**home stories**/
@@ -103,19 +114,19 @@ p {
   font-weight: bold;
   display: inline-block;
   vertical-align: top;
-  letter-spacing: -0.005em;
 }
 
 .mission {
   font-size: 14px;
 }
 
-.story p, .journies p, .team p, .prints p{
+/* .story p, .journies p, .team p, .prints p{
   color: black;
-  font-size: 19px;
+
   font-family: "CircularStd-Book";
   letter-spacing: -0.005em;
-}
+  font-size: 19px;
+} */
 
 .story .btn, .journies .btn {
   width: 180px;
@@ -165,7 +176,6 @@ p {
   height: 45px;
   width: 75%;
   font-family: "CircularStd-Book";
-  letter-spacing: 1px;
   border-radius: 0;
   display: inline-block;
 }
@@ -193,7 +203,7 @@ p {
   margin-top: 1%;
 }
 
-.feed h2 {
+.feed h1 {
   font-weight: bold;
   margin-left: 9.5%;
   width: 100%;
@@ -242,7 +252,6 @@ p {
   font-size: 16px;
   margin-right: 45px;
   font-size: "CircularStd-Book";
-  letter-spacing: 0.05em;
 }
 
 .socials {
@@ -291,7 +300,6 @@ footer img {
 
 .milestones .time {
   color:#6D8F4C;
-  letter-spacing: 0.01em;
   font-size: 18px;
   margin-bottom: 2%;
 }
@@ -300,14 +308,12 @@ footer img {
   font-size: 27px;
   margin-bottom: 8%;
   font-weight: bold;
-  letter-spacing: 0.01em;
 }
 
 .milestones .details {
   width: 85%;
   font-size: 20px;
   font-family: "CircularStd-Book";
-  letter-spacing: 0.01em;
 }
 
 .center {
@@ -319,8 +325,7 @@ footer img {
 .center-details {
   width: 100%;
   font-size: 20px;
-  font-family: "CircularStd-Book";
-  letter-spacing: 0.01em;
+  font-family: "CircularStd-Book"
 }
 
 
@@ -351,7 +356,6 @@ footer img {
 .story-intro h1{
   font-size: 36px;
   margin: auto;
-  letter-spacing: -0.005em;
 }
 
 .stories h1, .scroll{
@@ -395,7 +399,6 @@ footer img {
 .issues h4 {
   font-size: 16px;
   color: black;
-  letter-spacing: 0.01em;
   line-height: 0.003em;
   font-family: "CircularStd-Book";
 }
@@ -415,7 +418,6 @@ footer img {
   font-size: 19px;
   color:#6D8F4C;
   font-family: "CircularStd-Bold";
-  letter-spacing: 0.01em;
 }
 
 .events {
@@ -482,4 +484,264 @@ footer img {
   .navbar-brand {
     margin-left: -65px;
   }
+}
+
+/* mobile*/
+@media (max-width: 768px) {
+p {
+    color: #6b6b6b;
+    font-size: 16px;
+    color: black;
+    font-family: "CircularStd-Book";
+}
+h1 {
+    font-size: 24px;
+}
+h2 {
+    font-size: 20px;
+}
+h3 {
+    font-size: 18px;
+}
+h4 {
+    font-family: CircularStd-Book;
+    font-size: 20px;
+    color: #6d6d6d;
+}
+h5 {
+    font-family: MinionPro-Regular;
+    font-size: 1.1em;
+    margin: 1em 0;
+}
+.footer {
+    height: 37vh;
+    padding: 30px 0 0;
+    width: 100vw;
+    margin: 0;
+}
+.footer-nav {
+    display: none;
+}
+.footer .footer-social {
+    padding: 0;
+    text-align: center;
+    margin-bottom: 20px;
+}
+ul.footer-social li {
+    display: inline;
+    margin: 0;
+    margin-left: 25px;
+}
+ul.footer-social li:first-child {
+    display: inline;
+    margin-left: 0;
+}
+.copyright {
+    text-align: center;
+}
+.subscribe h4 {
+    float: none;
+    text-align: center;
+}
+.subscribe-form-wrap {
+    padding: 20px 0;
+    padding-right: 13vw;
+}
+#map-link {
+    display: none;
+}
+.navbar-nav > li {
+    padding-left: 7px;
+}
+.search-form {
+    float: left;
+    margin-left: -9px;
+    margin-bottom: 10px;
+}
+.content-row .col-md-6 {
+    height: auto;
+    padding: 0;
+}
+.content-row .col-md-4 {
+    height: auto;
+    padding: 0;
+}
+.content .content-section {
+    margin-left: 0;
+    margin-top: 20px;
+    margin-right: 0;
+}
+.carousel {
+    position: relative;
+    height: 250px;
+    /* margin-bottom: -0vh; */
+    overflow: hidden;
+}
+.featured-carousel {
+    color: white;
+    height: 250px;
+    width: 100%;
+    position: relative;
+}
+/*for carousel picture resizing*/
+.carousel-inner a {
+    background-size: 600px;
+    background-position-y: 0;
+    height: 250px;
+    padding: 0;
+}
+.carousel-caption {
+    bottom: 25px;
+    left: 8%;
+    right: 8%;
+}
+.carousel-caption h1 {
+    font-size: 20px;
+}
+.carousel-caption h3 {
+    font-size: 14px;
+}
+.carousel-indicators {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    z-index: 15;
+    width: 70%;
+    margin-left: -35%;
+    padding-left: 0;
+    list-style: none;
+    text-align: center;
+}
+.carousel-indicators li {
+    width: 7px;
+    height: 7px;
+}
+.carousel-indicators .active {
+    width: 7px;
+    height: 7px;
+}
+#share-text {
+    display: none;
+}
+.share-article {
+    background-color: #dcdcdc;
+    height: auto;
+    width: 40px;
+    padding: 0;
+    margin: 0;
+    right: 0;
+    top: 45vh;
+    opacity: .5;
+}
+.share-article ul {
+    list-style: none;
+    padding: 0;
+    display: block;
+    margin: 0;
+}
+.share-article ul li {
+    display: block;
+    margin: 0;
+    padding: 10px;
+}
+.title-box {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.white-section {
+    background-color: #fff;
+    color: #555;
+    padding: 1em;
+}
+.white-section p {
+    margin-bottom: 15px;
+    font-size: 16px;
+    line-height: 32px;
+}
+.gray-section {
+    padding: 1em;
+}
+.gray-section p {
+    margin-bottom: 15px;
+    font-size: 16px;
+    line-height: 32px;
+}
+.gray-section ul li {
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+.gray-author {
+    padding: 1em;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.image-author {
+    margin: 0;
+    width: 100%;
+    padding-top: 100%;
+}
+.author-about {
+    text-align: center;
+    margin-bottom: 25px;
+}
+.author-bio {
+    margin: 0;
+    padding: 1.5em 0;
+}
+.author-bio p {
+    font-size: 16px;
+    line-height: 32px;
+}
+img#join {
+    padding-top: 0;
+    width: 100vw;
+    height: auto;
+    margin-left: -5vw;
+}
+.contribute .col-md-6 {
+    padding-right: 0;
+}
+.contribute .col-md-4 {
+    margin-left: 0;
+}
+.contribute p {
+    font-size: 16px;
+}
+h2#contribute {
+    font-size: 2.5em;
+    margin-bottom: 0;
+}
+#submit-button {
+    padding-bottom: 2em;
+}
+form .row {
+    margin-right: -6px;
+}
+p#join {
+    padding-bottom: 0;
+    font-size: 16px;
+}
+#team {
+    padding: 1em;
+}
+#team p {
+    font-size: 16px;
+}
+#team .hoverbox {
+    display: none;
+}
+#about-space {
+    display: none;
+}
+select#region-select {
+    width: 100%;
+}
+.about-image-wrap {
+    height: 180px;
+    width: 100%;
+    margin: 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 500px;
+    /* background-position-x: -120px; */
 }

@@ -36,14 +36,14 @@
     </div>
 
   <div class="row story">
-      <div class="col-1">
+      <div class="col-md-1 col-xs-1">
       </div>
-      <div class="col-5">
+      <div class="col-md-5 col-xs-11">
         <h1>Stories</h1>
       </div>
-      <div class="col-1">
+      <div class="col-md-1 col-xs-1">
       </div>
-      <div class="mission col-4">
+      <div class="mission col-md-4 col-xs-10">
         <p>We share stories about people, places, and cultures around the world through
           publishing weekly online articles, delivering semesterly print magazines,
           and hosting events.<br><br>
@@ -51,9 +51,9 @@
           the world!</p>
           <button type="button" class="btn"><a href="stories.php">EXPLORE</a></button>
         </div>
-      <div class="col-1">
+      <div class="col-md-1 col-xs-1">
       </div>
-    <div>
+    </div>
 
 <div class="col-12 map">
   <img src="public/images/map.png"/>
@@ -65,17 +65,17 @@
 <div class="row journies">
   <div class="col-1">
   </div>
-  <div class="col-5">
+  <div class="col-md-5 col-xs-11">
     <h1>Guac's Journeys</h1>
   </div>
-  <div class="col-1">
+  <div class="col-md-1 col-xs-1">
   </div>
-  <div class= "mission col-4">
+  <div class="mission col-md-4 col-xs-10">
     <p>Founded in August 2017, Guac is an award-winning travel publication around
     by an interdisciplinary group of students at Cornell University.</p>
     <button type="button" class="btn"><a href="about.php">READ MORE</a></button>
   </div>
-  <div class="col-1">
+  <div class="col-md-1 col-xs-1">
   </div>
 </div>
 
