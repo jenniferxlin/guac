@@ -150,16 +150,17 @@ p {
 
 .subscription h2 {
   color: white;
+  margin: auto;
   margin-bottom: 30px;
   float:left;
+  width: 100%;
 }
-
 
 .email-form {
   display: inline-block;
 }
 
-.email-form>input {
+.email-form input {
   height: 45px;
   width: 75%;
   font-family: "CircularStd-Book";
@@ -168,7 +169,7 @@ p {
   display: inline-block;
 }
 
-#subscribe {
+#mc-embedded-subscribe {
   margin:0;
   height: 45px;
   width: 25%;
@@ -193,6 +194,8 @@ p {
 
 .feed h2 {
   font-weight: bold;
+  margin-left: 9.5%;
+  width: 100%;
 }
 
 .instapics {
@@ -201,7 +204,7 @@ p {
   padding: 0;
 }
 
-div .lightwidget-widget {
+.lightwidget-widget {
   background-color: #F5F5F5;
   width: 100%;
   margin-top: -45px;
@@ -211,10 +214,14 @@ div .lightwidget-widget {
   padding: 0;
 }
 
-.feed .col-2 img {
-  transform: translateY(60%);
+.feed img {
   width: 30px;
-  margin-left: 25%;
+  float: right;
+  margin-right: 110px;
+}
+
+.feed a {
+    float: right;
 }
 
 /**quicklinks**/
@@ -242,7 +249,7 @@ div .lightwidget-widget {
 }
 
 footer img {
-  width: 3%;
+  width: 20px;
   margin-right: 12px;
   padding-bottom: 45px;
 }
