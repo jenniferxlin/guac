@@ -422,11 +422,15 @@ footer img {
 @media only screen and (max-width: 1150px) {
   .topnav {
     display: none;
+    z-index: 1;
+  position: absolute;
+  display: none;
   }
 
   .icon {
     display: inline-block;
     width: 3%;
+    position: relative;
   }
 
   .icon img {
@@ -434,25 +438,30 @@ footer img {
     display: inline-block;
   }
 
-  .topnav.responsive {
+.topnav.responsive {
     display: block;
     position: absolute;
-    top: 50px;
-    right: 100px;
-    margin-top: 20px;
+    list-style-type: none;
+    width: 100%;
+    top: 60px;
+    transform: translateX(-12%);
   }
 
-  .topnav.responsive.navlink {
+  .topnav.responsive a{
     display: block;
-    text-decoration: underline #6D8F4C;
+    text-align: right;
+    padding-top: 5px;
+    width: 100%;
+  }
+
+  .topnav.responsive a:hover {
+    background: none;
     color: black;
-    display: block;
-  }
-
-  .topnav.responsive.navlink:hover{
+    padding-bottom: 0;
     text-decoration: underline #6D8F4C;
-    color: black;
-    display: block;
   }
 
+  .topnav.responsive #sub {
+    text-decoration: none;
+  }
 }

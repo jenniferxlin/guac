@@ -15,7 +15,7 @@
   <a href="javascript:void(0);" class="icon" id="menu-icon" onclick="myFunction()">
     <img src="public/images/menu-icon.png"/></a>
   <div class="topnav nav" id="myTopnav">
-    <a class="navlink" href="index.php">Home</a>
+    <a class="navlink" id="main" href="index.php">Home</a>
     <a class="navlink" href="stories.php">Stories</a>
     <a class="navlink" href="about.php">About</a>
     <a class="navlink" href="mailto:guacmag@gmail.com">Contact</a>
