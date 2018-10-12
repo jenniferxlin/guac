@@ -12,14 +12,16 @@
   </div>
   <div class="col-6">
   </div>
-  <a href="javascript:void(0);" class="icon" id="menu-icon" onclick="myFunction()">
-    <img src="public/images/menu-icon.png"/></a>
   <div class="topnav nav" id="myTopnav">
-    <a class="navlink" id="main" href="index.php">Home</a>
+    <div class="navlinks">
+    <a class="navlink" href="index.php">Home</a>
     <a class="navlink" href="stories.php">Stories</a>
-    <a class="navlink" href="about.php">About</a>
-    <a class="navlink" href="mailto:guacmag@gmail.com">Contact</a>
+    <a class="navlink"  href="about.php">About</a>
+    <a class="navlink"  href="mailto:guacmag@gmail.com">Contact</a>
     <a class="navlink" href="#subscribe" id="sub">Subscribe</a>
   </div>
+  </div>
+  <a href="#" class="icon" id="menu-icon" onclick="myFunction()">
+    <img src="public/images/menu-icon.png"/></a>
 </nav>
 </body>

@@ -22,7 +22,7 @@ p {
   background-color: #F9E0BE;
 }
 
-.nav>a:hover{
+.topnav>a:hover{
   background: none;
   color: black;
   padding-bottom: 0;
@@ -36,6 +36,7 @@ p {
 
 #sub {
   color: #6D8F4C;
+  text-decoration: none;
   border-bottom: none;
   font-family: "CircularStd-Bold";
 }
@@ -430,8 +431,7 @@ footer img {
   .topnav {
     display: none;
     z-index: 1;
-  position: absolute;
-  display: none;
+    position: absolute;
   }
 
   .icon {
@@ -448,10 +448,16 @@ footer img {
 .topnav.responsive {
     display: block;
     position: absolute;
-    list-style-type: none;
+    float: right;
     width: 100%;
     top: 60px;
-    transform: translateX(-12%);
+    transform: translateX(-11%);
+  }
+
+  .topnav.responsive>.navlinks {
+    width: 7%;
+    float: right;
+    text-align: right;
   }
 
   .topnav.responsive a{
@@ -465,10 +471,15 @@ footer img {
     background: none;
     color: black;
     padding-bottom: 0;
-    text-decoration: underline #6D8F4C;
+    text-decoration: none;
+    border-bottom: 3px solid #6D8F4C;
   }
 
   .topnav.responsive #sub {
     text-decoration: none;
+  }
+
+  .navbar-brand {
+    margin-left: -65px;
   }
 }

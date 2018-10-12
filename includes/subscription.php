@@ -1,6 +1,6 @@
 <div class="jumbotron subscription">
 <div class="row">
-    <h2>Never miss a story</h2>
+    <h2 id="subscribe">Never miss a story</h2>
 </div>
 
 <div class="row">
