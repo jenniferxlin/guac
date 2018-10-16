@@ -6,22 +6,38 @@
 </head>
 
 <body>
-  <nav class="col-12 navbar container-fluid">
-  <div class="col-2">
+  <nav class="navigation row">
+    <div class="col-1">
+    </div>
+    <div class="col-1">
       <a class="navbar-brand" href="index.php">guac</a>
-  </div>
-  <div class="col-6">
-  </div>
-  <div class="topnav nav" id="myTopnav">
-    <div class="navlinks">
-    <a class="navlink" href="index.php">Home</a>
-    <a class="navlink" href="stories.php">Stories</a>
-    <a class="navlink"  href="about.php">About</a>
-    <a class="navlink"  href="mailto:guacmag@gmail.com">Contact</a>
-    <a class="navlink" href="#subscribe" id="sub">Subscribe</a>
-  </div>
-  </div>
-  <a href="#" class="icon" id="menu-icon" onclick="myFunction()">
+    </div>
+    <div class="col-3">
+    </div>
+    <a href="#" class="icon" id="menu-icon" onclick="openNav()" style="background-color:transparent">
     <img src="public/images/menu-icon.png"/></a>
-</nav>
+    <div class="col-6 navlinks">
+      <div class="topnav" id="myTopnav">
+          <a class="navlink" href="index.php">Home</a>
+          <a class="navlink" href="stories.php">Stories</a>
+          <a class="navlink" href="about.php">About</a>
+          <a class="navlink" href="mailto:guacmag@gmail.com">Contact</a>
+          <a class="navlink" href="#subscribe" id="sub">Subscribe</a>
+      </div>
+    </div>
+    <div class="overlay" id="myNav">
+      <div class="logo">
+        <a href="index.php">guac</a>
+        <a href="#" class="closebtn" onclick="closeNav()">&times;</a>
+      </div>
+        <a class="navlink" href="index.php">Home</a>
+        <a class="navlink" href="stories.php">Stories</a>
+        <a class="navlink" href="about.php">About</a>
+        <a class="navlink" href="mailto:guacmag@gmail.com">Contact</a>
+        <a class="navlink" href="#subscribe" id="sub">Subscribe</a>
+    </div>
+    <div class="col-1">
+    </div>
+  </nav>
 </body>
+</html>
